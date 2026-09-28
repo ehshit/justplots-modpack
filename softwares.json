@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.ehis.gay/ehmodpack/schema/softwares.schema.json",
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "minecraft": "1.21.11",
+      "java": "21",
+      "loader": {
+        "type": "fabric",
+        "version": "0.19.5"
+      }
+    },
+    {
+      "minecraft": "1.21.10",
+      "java": "21",
+      "loader": {
+        "type": "fabric",
+        "version": "0.19.5"
+      }
+    }
+  ]
+}

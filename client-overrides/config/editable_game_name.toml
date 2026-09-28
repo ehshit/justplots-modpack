@@ -1,0 +1,11 @@
+# Title shown on the window title bar
+# You can add something like ${version} to actually get the version of the game (as well as either: ${username} and ${mode})
+title = "Just Plots (Minecraft ${version})"
+
+# Icons
+# Icons go to your .minecraft's folder under a "icons" folder, that icon must be .png! (then just write it's filename)
+# To have a icon, uncomment the line below, but if you rather don't want a icon, comment it out
+icon = "icon"
+
+# This hides logs, if you want
+hide-logs = true

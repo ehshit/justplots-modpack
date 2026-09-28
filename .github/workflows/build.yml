@@ -1,0 +1,34 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Eh's Modpack
+        shell: bash
+        run: |
+          mkdir -p "$HOME/.local/bin"
+          curl -sL -o "$HOME/.local/bin/ehmodpack" \
+            "https://github.com/ehshit/ehmodpack/releases/latest/download/ehmodpack-linux-x86_64"
+          chmod +x "$HOME/.local/bin/ehmodpack"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+      - name: check lockfile
+        run: ehmodpack lock --check
+      - name: build every target
+        run: ehmodpack build --locked --all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: __SLUG__
+          path: dist/*.mrpack
+          if-no-files-found: error

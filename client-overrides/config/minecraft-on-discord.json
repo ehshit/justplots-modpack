@@ -1,0 +1,21 @@
+{
+	"customDiscordClientId": "1545798033105494076",
+	"generalShowWorldName": false,
+	"multiplayerShowIp": true,
+	"multiplayerShowName": true,
+	"privacyMode": false,
+	"hideServerOnTransfer": true,
+	"showInvalidIdScreenInGame": false,
+	"showTotalPlaytime": false,
+	"discordEnableButtons": true,
+	"discordButton1Label": "Server",
+	"discordButton1Url": "https://modrinth.com/project/baIchokm",
+	"discordButton2Label": "",
+	"discordButton2Url": "",
+	"discordClosedReminderMode": "DAYS_10",
+	"discordClosedReminderCustom": "1d12h",
+	"discordClosedReminderNextEpochSeconds": 0,
+	"logScreenMismatches": false,
+	"useOverrideScreenOnce": false,
+	"disableServerReminder": true
+}
