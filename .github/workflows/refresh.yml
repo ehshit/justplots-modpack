@@ -23,7 +23,7 @@ jobs:
           chmod +x "$HOME/.local/bin/ehmodpack"
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
       - name: bump mod versions
-        run: ehmodpack update
+        run: ehmodpack update --update-changelogs
       - name: count the updated mods
         id: count
         run: |
@@ -48,3 +48,4 @@ jobs:
           add-paths: |-
             packages.json
             ehmodpack.lock.json
+            changelog.toml

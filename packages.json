@@ -1,11 +1,12 @@
 {
   "$schema": "https://docs.ehis.gay/ehmodpack/schema/packages.schema.json",
   "schemaVersion": 1,
+  "top": "1.21.11",
   "name": "Just Plots",
   "summary": "",
   "version": "1.0.0",
   "client": true,
-  "server": true,
+  "server": false,
   "overrides": "overrides",
   "client_overrides": "client-overrides",
   "server_overrides": "server-overrides",
@@ -15,7 +16,9 @@
       "project": "editable-game-title",
       "versions": {
         "1.21.10+fabric": "v1.1-fabric",
-        "1.21.11+fabric": "v1.1-fabric"
+        "1.21.11+fabric": "v1.1-fabric",
+        "1.21.8+fabric": "v1.1-fabric",
+        "1.21.9+fabric": "v1.1-fabric"
       },
       "env": {
         "client": "required",
@@ -28,7 +31,9 @@
       "project": "badoptimizations",
       "versions": {
         "1.21.10+fabric": "2.4.1",
-        "1.21.11+fabric": "2.4.1"
+        "1.21.11+fabric": "2.4.1",
+        "1.21.8+fabric": "2.4.1",
+        "1.21.9+fabric": "2.3.3"
       },
       "env": {
         "client": "required",
@@ -41,7 +46,9 @@
       "project": "dramatic-skys",
       "versions": {
         "1.21.10+fabric": "1.5.3.36.5",
-        "1.21.11+fabric": "1.5.3.36.5"
+        "1.21.11+fabric": "1.5.3.36.5",
+        "1.21.8+fabric": "1.5.3.36.6",
+        "1.21.9+fabric": "1.5.3.36.6"
       },
       "env": {
         "client": "required",
@@ -53,7 +60,12 @@
     {
       "type": "mod",
       "project": "entityculling",
-      "version": "1.10.5",
+      "versions": {
+        "1.21.10+fabric": "1.10.5",
+        "1.21.11+fabric": "1.10.5",
+        "1.21.8+fabric": "1.11.2",
+        "1.21.9+fabric": "1.9.3"
+      },
       "env": {
         "client": "required",
         "server": "unsupported"
@@ -65,7 +77,9 @@
       "project": "morechathistory",
       "versions": {
         "1.21.10+fabric": "1.3.1",
-        "1.21.11+fabric": "1.3.1"
+        "1.21.11+fabric": "1.3.1",
+        "1.21.8+fabric": "1.3.1",
+        "1.21.9+fabric": "1.3.1"
       },
       "env": {
         "client": "required",
@@ -78,7 +92,9 @@
       "project": "forge-config-api-port",
       "versions": {
         "1.21.10+fabric": "21.10.1",
-        "1.21.11+fabric": "21.11.1"
+        "1.21.11+fabric": "21.11.1",
+        "1.21.8+fabric": "v21.8.2-1.21.8-Fabric",
+        "1.21.9+fabric": "21.9.8"
       },
       "env": {
         "client": "required",
@@ -91,7 +107,9 @@
       "project": "rrls",
       "versions": {
         "1.21.10+fabric": "5.1.12+mc1.21.9-fabric",
-        "1.21.11+fabric": "5.1.15+mc1.21.11-fabric"
+        "1.21.11+fabric": "5.1.15+mc1.21.11-fabric",
+        "1.21.8+fabric": "5.1.10+mc1.21.8-fabric",
+        "1.21.9+fabric": "5.1.12+mc1.21.9-fabric"
       },
       "env": {
         "client": "required",
@@ -104,7 +122,9 @@
       "project": "sodium-extra",
       "versions": {
         "1.21.10+fabric": "mc1.21.10-0.7.1+fabric",
-        "1.21.11+fabric": "mc1.21.11-0.8.3+fabric"
+        "1.21.11+fabric": "mc1.21.11-0.8.3+fabric",
+        "1.21.8+fabric": "mc1.21.8-0.7.0+fabric",
+        "1.21.9+fabric": "mc1.21.10-0.7.1+fabric"
       },
       "env": {
         "client": "required",
@@ -115,7 +135,12 @@
     {
       "type": "mod",
       "project": "fast-ip-ping",
-      "version": "v1.0.12-mc1.21.10-fabric",
+      "versions": {
+        "1.21.10+fabric": "v1.0.12-mc1.21.10-fabric",
+        "1.21.11+fabric": "v1.0.12-mc1.21.11-fabric",
+        "1.21.8+fabric": "v1.0.12-mc1.21.8-fabric",
+        "1.21.9+fabric": "v1.0.12-mc1.21.10-fabric"
+      },
       "env": {
         "client": "required",
         "server": "unsupported"
@@ -127,7 +152,9 @@
       "project": "icons",
       "versions": {
         "1.21.10+fabric": "1.13.4",
-        "1.21.11+fabric": "1.13.4"
+        "1.21.11+fabric": "1.13.4",
+        "1.21.8+fabric": "1.14",
+        "1.21.9+fabric": "1.14"
       },
       "env": {
         "client": "required",
@@ -141,7 +168,9 @@
       "project": "icons-additions",
       "versions": {
         "1.21.10+fabric": "1.2.1",
-        "1.21.11+fabric": "1.2.1"
+        "1.21.11+fabric": "1.2.1",
+        "1.21.8+fabric": "1.2.1",
+        "1.21.9+fabric": "1.2.1"
       },
       "env": {
         "client": "required",
@@ -153,7 +182,12 @@
     {
       "type": "mod",
       "project": "3dskinlayers",
-      "version": "1.11.2",
+      "versions": {
+        "1.21.10+fabric": "1.11.2",
+        "1.21.11+fabric": "1.11.2",
+        "1.21.8+fabric": "1.11.3",
+        "1.21.9+fabric": "1.9.2"
+      },
       "env": {
         "client": "required",
         "server": "unsupported"
@@ -165,7 +199,9 @@
       "project": "placeholder-api",
       "versions": {
         "1.21.10+fabric": "2.8.2+1.21.10",
-        "1.21.11+fabric": "2.8.2+1.21.10"
+        "1.21.11+fabric": "2.8.2+1.21.10",
+        "1.21.8+fabric": "2.7.2+1.21.8",
+        "1.21.9+fabric": "2.8.1+1.21.10"
       },
       "env": {
         "client": "required",
@@ -178,7 +214,9 @@
       "project": "female-gender",
       "versions": {
         "1.21.10+fabric": "5.0.0-Beta.2+1.21.10",
-        "1.21.11+fabric": "5.0.0-Beta.3+1.21.11"
+        "1.21.11+fabric": "5.0.0-Beta.3+1.21.11",
+        "1.21.8+fabric": "4.3.4+1.21.7",
+        "1.21.9+fabric": "5.0.0-Beta.1+1.21.9"
       },
       "env": {
         "client": "required",
@@ -190,8 +228,10 @@
       "type": "mod",
       "project": "sodium",
       "versions": {
+        "1.21.10+fabric": "mc1.21.10-0.7.3-fabric",
         "1.21.11+fabric": "mc1.21.11-0.8.7-fabric",
-        "1.21.10+fabric": "mc1.21.10-0.7.3-fabric"
+        "1.21.8+fabric": "mc1.21.8-0.7.3-fabric",
+        "1.21.9+fabric": "mc1.21.10-0.7.3-fabric"
       },
       "env": {
         "client": "required",
@@ -205,7 +245,9 @@
       "project": "fabric-language-kotlin",
       "versions": {
         "1.21.10+fabric": "1.13.13+kotlin.2.4.10",
-        "1.21.11+fabric": "1.13.13+kotlin.2.4.10"
+        "1.21.11+fabric": "1.13.13+kotlin.2.4.10",
+        "1.21.8+fabric": "1.14.1+kotlin.2.4.20",
+        "1.21.9+fabric": "1.14.1+kotlin.2.4.20"
       },
       "env": {
         "client": "required",
@@ -218,7 +260,9 @@
       "project": "modmenu",
       "versions": {
         "1.21.10+fabric": "16.0.1",
-        "1.21.11+fabric": "17.0.1-beta.1"
+        "1.21.11+fabric": "17.0.1-beta.1",
+        "1.21.8+fabric": "15.0.2",
+        "1.21.9+fabric": "16.0.1"
       },
       "env": {
         "client": "required",
@@ -231,7 +275,9 @@
       "project": "lithium",
       "versions": {
         "1.21.10+fabric": "mc1.21.10-0.20.1-fabric",
-        "1.21.11+fabric": "mc1.21.11-0.21.4-fabric"
+        "1.21.11+fabric": "mc1.21.11-0.21.4-fabric",
+        "1.21.8+fabric": "mc1.21.8-0.18.1-fabric",
+        "1.21.9+fabric": "mc1.21.9-0.19.2-fabric"
       },
       "env": {
         "client": "required",
@@ -244,7 +290,9 @@
       "project": "no-chat-reports",
       "versions": {
         "1.21.10+fabric": "Fabric-1.21.10-v2.16.0",
-        "1.21.11+fabric": "Fabric-1.21.11-v2.18.0"
+        "1.21.11+fabric": "Fabric-1.21.11-v2.18.0",
+        "1.21.8+fabric": "Fabric-1.21.8-v2.15.0",
+        "1.21.9+fabric": "Fabric-1.21.10-v2.16.0"
       },
       "env": {
         "client": "required",
@@ -255,7 +303,12 @@
     {
       "type": "mod",
       "project": "immediatelyfast",
-      "version": "1.13.6+1.21.10-fabric",
+      "versions": {
+        "1.21.10+fabric": "1.13.6+1.21.10-fabric",
+        "1.21.11+fabric": "1.14.3+1.21.11-fabric",
+        "1.21.8+fabric": "1.12.6+1.21.8-fabric",
+        "1.21.9+fabric": "1.13.6+1.21.10-fabric"
+      },
       "env": {
         "client": "required",
         "server": "unsupported"
@@ -265,7 +318,12 @@
     {
       "type": "mod",
       "project": "cloth-config",
-      "version": "21.11.153+fabric",
+      "versions": {
+        "1.21.10+fabric": "20.0.149+fabric",
+        "1.21.11+fabric": "21.11.153+fabric",
+        "1.21.8+fabric": "19.0.147+fabric",
+        "1.21.9+fabric": "20.0.149+fabric"
+      },
       "env": {
         "client": "required",
         "server": "required"
@@ -275,7 +333,12 @@
     {
       "type": "mod",
       "project": "simple-voice-chat",
-      "version": "fabric-1.21.10-2.6.22",
+      "versions": {
+        "1.21.10+fabric": "fabric-1.21.10-2.6.22",
+        "1.21.11+fabric": "fabric-1.21.11-2.6.22",
+        "1.21.8+fabric": "fabric-1.21.8-2.6.22",
+        "1.21.9+fabric": "fabric-1.21.9-2.6.4"
+      },
       "env": {
         "client": "required",
         "server": "required"
@@ -287,7 +350,9 @@
       "project": "zoomify",
       "versions": {
         "1.21.10+fabric": "2.15.2+1.21.9",
-        "1.21.11+fabric": "2.15.2+1.21.11"
+        "1.21.11+fabric": "2.15.2+1.21.11",
+        "1.21.8+fabric": "2.15.2+1.21.6",
+        "1.21.9+fabric": "2.15.2+1.21.9"
       },
       "env": {
         "client": "required",
@@ -298,7 +363,12 @@
     {
       "type": "mod",
       "project": "cubes-without-borders",
-      "version": "3.0.0+1.21.11",
+      "versions": {
+        "1.21.10+fabric": "3.0.0+1.21.5",
+        "1.21.11+fabric": "3.0.0+1.21.11",
+        "1.21.8+fabric": "3.0.0+1.21.5",
+        "1.21.9+fabric": "3.0.0+1.21.5"
+      },
       "env": {
         "client": "required",
         "server": "unsupported"
@@ -310,7 +380,9 @@
       "project": "moreculling",
       "versions": {
         "1.21.10+fabric": "1.5.0-beta2",
-        "1.21.11+fabric": "1.6.2"
+        "1.21.11+fabric": "1.6.2",
+        "1.21.8+fabric": "1.4.0-beta.2",
+        "1.21.9+fabric": "1.5.0-beta2"
       },
       "env": {
         "client": "required",
@@ -323,7 +395,9 @@
       "project": "jade",
       "versions": {
         "1.21.10+fabric": "20.0.5+fabric",
-        "1.21.11+fabric": "21.1.6+fabric"
+        "1.21.11+fabric": "21.1.6+fabric",
+        "1.21.8+fabric": "19.3.2+fabric",
+        "1.21.9+fabric": "20.0.5+fabric"
       },
       "env": {
         "client": "required",
@@ -335,8 +409,10 @@
       "type": "mod",
       "project": "entitytexturefeatures",
       "versions": {
-        "1.21.11+fabric": "7.2.4-fabric-1.21.9",
-        "1.21.10+fabric": "7.1-fabric-1.21.9"
+        "1.21.10+fabric": "7.1-fabric-1.21.9",
+        "1.21.11+fabric": "7.2.4-fabric-1.21.11",
+        "1.21.8+fabric": "7.2.4-fabric-1.21.6",
+        "1.21.9+fabric": "7.2.4-fabric-1.21.9"
       },
       "env": {
         "client": "required",
@@ -347,7 +423,12 @@
     {
       "type": "mod",
       "project": "almanac",
-      "version": "1.6.2",
+      "versions": {
+        "1.21.10+fabric": "1.5.0",
+        "1.21.11+fabric": "1.6.2",
+        "1.21.8+fabric": "1.5.0",
+        "1.21.9+fabric": "1.5.0"
+      },
       "env": {
         "client": "required",
         "server": "required"
@@ -357,7 +438,12 @@
     {
       "type": "mod",
       "project": "searchables",
-      "version": "1.0.4",
+      "versions": {
+        "1.21.10+fabric": "1.0.2",
+        "1.21.11+fabric": "1.0.4",
+        "1.21.8+fabric": "1.0.2",
+        "1.21.9+fabric": "1.0.2"
+      },
       "env": {
         "client": "required",
         "server": "unsupported"
@@ -369,7 +455,8 @@
       "project": "debugify",
       "versions": {
         "1.21.10+fabric": "1.21.10+1.1",
-        "1.21.11+fabric": "1.21.11+1.1"
+        "1.21.11+fabric": "1.21.11+1.1",
+        "1.21.8+fabric": "1.21.8+1.0"
       },
       "env": {
         "client": "required",
@@ -382,7 +469,9 @@
       "project": "custom-client-brand",
       "versions": {
         "1.21.10+fabric": "1.0.1+1.20.5",
-        "1.21.11+fabric": "1.0.1+1.20.5"
+        "1.21.11+fabric": "1.0.1+1.20.5",
+        "1.21.8+fabric": "1.0.1+1.20.5",
+        "1.21.9+fabric": "1.0.1+1.20.5"
       },
       "env": {
         "client": "required",
@@ -393,7 +482,12 @@
     {
       "type": "mod",
       "project": "yacl",
-      "version": "3.8.2+1.21.10-fabric",
+      "versions": {
+        "1.21.10+fabric": "3.8.2+1.21.10-fabric",
+        "1.21.11+fabric": "3.8.2+1.21.11-fabric",
+        "1.21.8+fabric": "3.8.2+1.21.6-fabric",
+        "1.21.9+fabric": "3.8.2+1.21.10-fabric"
+      },
       "env": {
         "client": "required",
         "server": "required"
@@ -405,7 +499,9 @@
       "project": "fabric-api",
       "versions": {
         "1.21.10+fabric": "0.138.4+1.21.10",
-        "1.21.11+fabric": "0.141.6+1.21.11"
+        "1.21.11+fabric": "0.141.6+1.21.11",
+        "1.21.8+fabric": "0.136.1+1.21.8",
+        "1.21.9+fabric": "0.134.1+1.21.9"
       },
       "env": {
         "client": "required",
@@ -418,7 +514,9 @@
       "project": "reeses-sodium-options",
       "versions": {
         "1.21.10+fabric": "mc1.21.10-1.8.6+fabric",
-        "1.21.11+fabric": "mc1.21.11-2.0.3+fabric"
+        "1.21.11+fabric": "mc1.21.11-2.0.3+fabric",
+        "1.21.8+fabric": "mc1.21.6-1.8.4+fabric",
+        "1.21.9+fabric": "mc1.21.10-1.8.6+fabric"
       },
       "env": {
         "client": "required",
@@ -429,7 +527,12 @@
     {
       "type": "mod",
       "project": "dynamic-fps",
-      "version": "3.11.6",
+      "versions": {
+        "1.21.10+fabric": "3.11.6",
+        "1.21.11+fabric": "3.11.6",
+        "1.21.8+fabric": "3.11.4",
+        "1.21.9+fabric": "3.11.6"
+      },
       "env": {
         "client": "required",
         "server": "unsupported"
@@ -440,8 +543,10 @@
       "type": "mod",
       "project": "iris",
       "versions": {
+        "1.21.10+fabric": "1.9.7+1.21.10-fabric",
         "1.21.11+fabric": "1.10.7+1.21.11-fabric",
-        "1.21.10+fabric": "1.9.7+1.21.10-fabric"
+        "1.21.8+fabric": "1.9.6+1.21.8-fabric",
+        "1.21.9+fabric": "1.9.7+1.21.10-fabric"
       },
       "env": {
         "client": "required",
@@ -455,7 +560,9 @@
       "project": "minecraft-on-discord",
       "versions": {
         "1.21.10+fabric": "v1.3.2.1",
-        "1.21.11+fabric": "v1.3.2.1"
+        "1.21.11+fabric": "v1.3.2.1",
+        "1.21.8+fabric": "v1.3.2.1",
+        "1.21.9+fabric": "v1.3.2.1"
       },
       "env": {
         "client": "required",
@@ -468,7 +575,9 @@
       "project": "no-chat-restrictions",
       "versions": {
         "1.21.10+fabric": "Fabric-MC1.21.11-v1.0.2",
-        "1.21.11+fabric": "Fabric-MC1.21.11-v1.0.2"
+        "1.21.11+fabric": "Fabric-MC1.21.11-v1.0.2",
+        "1.21.8+fabric": "Fabric-MC1.21.11-v1.0.2",
+        "1.21.9+fabric": "Fabric-MC1.21.11-v1.0.2"
       },
       "env": {
         "client": "required",
@@ -481,7 +590,9 @@
       "project": "entity-model-features",
       "versions": {
         "1.21.10+fabric": "3.2.4-fabric-1.21.9",
-        "1.21.11+fabric": "3.3.8-fabric-1.21.11"
+        "1.21.11+fabric": "3.3.8-fabric-1.21.11",
+        "1.21.8+fabric": "3.3.8-fabric-1.21.6",
+        "1.21.9+fabric": "3.3.8-fabric-1.21.9"
       },
       "env": {
         "client": "required",
@@ -494,7 +605,9 @@
       "project": "ginkgo-font",
       "versions": {
         "1.21.10+fabric": "1.5",
-        "1.21.11+fabric": "1.5"
+        "1.21.11+fabric": "1.5",
+        "1.21.8+fabric": "1.5",
+        "1.21.9+fabric": "1.5"
       },
       "env": {
         "client": "required",
@@ -508,7 +621,9 @@
       "project": "chat-heads",
       "versions": {
         "1.21.10+fabric": "1.2.8",
-        "1.21.11+fabric": "1.2.8"
+        "1.21.11+fabric": "1.2.8",
+        "1.21.8+fabric": "0.15.6",
+        "1.21.9+fabric": "1.3.0"
       },
       "env": {
         "client": "required",
@@ -521,7 +636,9 @@
       "project": "language-reload",
       "versions": {
         "1.21.10+fabric": "1.7.6+1.21.10",
-        "1.21.11+fabric": "1.7.7+1.21.11"
+        "1.21.11+fabric": "1.7.7+1.21.11",
+        "1.21.8+fabric": "1.7.6+1.21.8",
+        "1.21.9+fabric": "1.7.6+1.21.10"
       },
       "env": {
         "client": "required",
@@ -532,7 +649,12 @@
     {
       "type": "mod",
       "project": "lmd",
-      "version": "1.6.2",
+      "versions": {
+        "1.21.10+fabric": "1.5.2b",
+        "1.21.11+fabric": "1.6.2",
+        "1.21.8+fabric": "1.5.1",
+        "1.21.9+fabric": "1.5.2b"
+      },
       "env": {
         "client": "required",
         "server": "required"
@@ -542,7 +664,12 @@
     {
       "type": "mod",
       "project": "controlling",
-      "version": "29.0.1",
+      "versions": {
+        "1.21.10+fabric": "28.0.2",
+        "1.21.11+fabric": "29.0.1",
+        "1.21.8+fabric": "26.0.3",
+        "1.21.9+fabric": "27.0.2"
+      },
       "env": {
         "client": "required",
         "server": "unsupported"
@@ -554,7 +681,9 @@
       "project": "ferrite-core",
       "versions": {
         "1.21.10+fabric": "8.1.0-fabric",
-        "1.21.11+fabric": "8.2.0-fabric"
+        "1.21.11+fabric": "8.2.0-fabric",
+        "1.21.8+fabric": "8.0.4-fabric",
+        "1.21.9+fabric": "8.1.0-fabric"
       },
       "env": {
         "client": "required",

@@ -4,7 +4,10 @@
   "title": "ehmodpack packages.json",
   "description": "The list of mods and resource packs a modpack is made of",
   "type": "object",
-  "required": ["name", "packages"],
+  "required": [
+    "name",
+    "packages"
+  ],
   "properties": {
     "$schema": {
       "type": "string",
@@ -19,6 +22,10 @@
       "type": "string",
       "description": "the modpack name, used as the .mrpack file name"
     },
+    "modrinthProjectId": {
+      "type": "string",
+      "description": "Your modrinth project id"
+    },
     "summary": {
       "type": "string",
       "description": "one line about the modpack"
@@ -26,7 +33,11 @@
     "version": {
       "type": "string",
       "default": "0.0.0",
-      "description": "Version for the project and the .mrpack file"
+      "description": "becomes versionId in modrinth.index.json"
+    },
+    "top": {
+      "type": "string",
+      "description": "The top game version when publishing"
     },
     "client": {
       "type": "boolean",
@@ -55,27 +66,44 @@
     },
     "packages": {
       "type": "array",
-      "items": { "$ref": "#/$defs/package" }
+      "items": {
+        "$ref": "#/$defs/package"
+      }
     }
   },
   "$defs": {
     "support": {
-      "enum": ["required", "optional", "unsupported"],
+      "enum": [
+        "required",
+        "optional",
+        "unsupported"
+      ],
       "description": "required forces the file on, optional leaves it to the user, unsupported hides it"
     },
     "env": {
       "type": "object",
       "properties": {
-        "client": { "$ref": "#/$defs/support" },
-        "server": { "$ref": "#/$defs/support" }
+        "client": {
+          "$ref": "#/$defs/support"
+        },
+        "server": {
+          "$ref": "#/$defs/support"
+        }
       }
     },
     "package": {
       "type": "object",
-      "required": ["type"],
+      "required": [
+        "type"
+      ],
       "properties": {
         "type": {
-          "enum": ["mod", "resourcepack", "shader", "datapack"],
+          "enum": [
+            "mod",
+            "resourcepack",
+            "shader",
+            "datapack"
+          ],
           "description": "decides the folder the file lands in inside the .mrpack"
         },
         "project": {
@@ -92,18 +120,27 @@
         },
         "ids": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "the embedded mod ids this project has been seen identifying as, used to confirm updates are still the same mod"
         },
         "versions": {
           "type": "object",
           "description": "a version per target, keys are tried in order: minecraft+loader, minecraft, default, *",
-          "additionalProperties": { "type": "string" },
+          "additionalProperties": {
+            "type": "string"
+          },
           "examples": [
-            { "1.21.11+fabric": "0.6.0", "1.21.8+fabric": "0.5.3" }
+            {
+              "1.21.11+fabric": "0.6.0",
+              "1.21.8+fabric": "0.5.3"
+            }
           ]
         },
-        "env": { "$ref": "#/$defs/env" },
+        "env": {
+          "$ref": "#/$defs/env"
+        },
         "optional": {
           "type": "boolean",
           "description": "shorthand for an optional client env"
@@ -117,11 +154,25 @@
           "description": "keep this package pinned at exactly this version, updates and auto-fixes leave it alone"
         },
         "position": {
-          "enum": ["top", "bottom"],
+          "enum": [
+            "top",
+            "bottom"
+          ],
           "description": "where an active pack sits in the resource pack stack, defaults to top"
         }
       },
-      "anyOf": [{ "required": ["project"] }, { "required": ["id"] }]
+      "anyOf": [
+        {
+          "required": [
+            "project"
+          ]
+        },
+        {
+          "required": [
+            "id"
+          ]
+        }
+      ]
     }
   }
 }
