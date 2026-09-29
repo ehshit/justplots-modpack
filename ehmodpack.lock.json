@@ -2,8 +2,8 @@
   "$schema": "https://docs.ehis.gay/ehmodpack/schema/lock.schema.json",
   "schemaVersion": 1,
   "lock_version": 3,
-  "generated_at": "2026-09-28T19:32:30.8776199Z",
-  "manifest_hash": "b456610014d28af5bc41698b3b1288543da4eace82f909b1b3c237c24e81b8f7",
+  "generated_at": "2026-09-29T19:51:27.8122883Z",
+  "manifest_hash": "ad35641e1236f3ec5673b0a43c8bf6a58c9cec5edc60ae8c6ab4143b1a1f3c57",
   "name": "Just Plots",
   "version": "1.0.0",
   "summary": "",
@@ -1599,18 +1599,18 @@
           "type": "mod",
           "project": "entitytexturefeatures",
           "project_id": "BVzZfTc1",
-          "version_id": "yW674mc9",
-          "version_number": "7.1-fabric-1.21.9",
-          "filename": "entity_texture_features_1.21.9-fabric-7.1.jar",
-          "path": "mods/entity_texture_features_1.21.9-fabric-7.1.jar",
+          "version_id": "acEWVo9a",
+          "version_number": "7.2.4-fabric-1.21.9",
+          "filename": "entity_texture_features-7.2.4-1.21.9-fabric.jar",
+          "path": "mods/entity_texture_features-7.2.4-1.21.9-fabric.jar",
           "hashes": {
-            "sha1": "d954857ff2b6ff17c0594ee96cf5c3b24d58ae78",
-            "sha512": "98c918a73f0db0cf6bbd07fbeae8c9a82e51c38b7db35784a1f191df3442940fd51d2d5b7712b46d68335aa08765635ca19f2c33dcb336d6424ea7a0bb11fbd5"
+            "sha1": "92b4db239faf912dac103c027b32123b6167404b",
+            "sha512": "330921b7c99d376f921ceea3d330a245f9b480a2397b32efa8423680fd52be958b20eb1a6fe71faa3395525e5bf5682fa50ca3dda66d05e446dd0c124272a8c4"
           },
           "downloads": [
-            "https://cdn.modrinth.com/data/BVzZfTc1/versions/yW674mc9/entity_texture_features_1.21.9-fabric-7.1.jar"
+            "https://cdn.modrinth.com/data/BVzZfTc1/versions/acEWVo9a/entity_texture_features-7.2.4-1.21.9-fabric.jar"
           ],
-          "file_size": 744587,
+          "file_size": 786411,
           "env": {
             "client": "required",
             "server": "unsupported"
@@ -1863,18 +1863,18 @@
           "type": "mod",
           "project": "entity-model-features",
           "project_id": "4I1XuqiY",
-          "version_id": "q5SsVEBz",
-          "version_number": "3.2.4-fabric-1.21.9",
-          "filename": "entity_model_features-3.2.4-1.21.9-fabric.jar",
-          "path": "mods/entity_model_features-3.2.4-1.21.9-fabric.jar",
+          "version_id": "lKrpBU0k",
+          "version_number": "3.3.8-fabric-1.21.9",
+          "filename": "entity_model_features-3.3.8-1.21.9-fabric.jar",
+          "path": "mods/entity_model_features-3.3.8-1.21.9-fabric.jar",
           "hashes": {
-            "sha1": "88d6c87e8780db6a15e2be3cd6842746bc7999ac",
-            "sha512": "3afd390f5b1400bd10fec79a7d2e5534f758732978e550095d11c51b8007d3ede4cef30055471c8066d3cdd3dec111f512449135d120d6decfff4439236e6c4b"
+            "sha1": "183ba7f17a0f139a8a895999857e242fb1745651",
+            "sha512": "916ac9dc20b6e87e6a8ab370a4787b35fd5befafc7b5fd0115eb06622a2d414a43fe26a315088ab1f8ae755e6f3e6a85e0c0c114a44249354dbf28eb411a8052"
           },
           "downloads": [
-            "https://cdn.modrinth.com/data/4I1XuqiY/versions/q5SsVEBz/entity_model_features-3.2.4-1.21.9-fabric.jar"
+            "https://cdn.modrinth.com/data/4I1XuqiY/versions/lKrpBU0k/entity_model_features-3.3.8-1.21.9-fabric.jar"
           ],
-          "file_size": 580138,
+          "file_size": 653697,
           "env": {
             "client": "required",
             "server": "unsupported"
@@ -2603,18 +2603,18 @@
           "type": "mod",
           "project": "entitytexturefeatures",
           "project_id": "BVzZfTc1",
-          "version_id": "acEWVo9a",
-          "version_number": "7.2.4-fabric-1.21.9",
-          "filename": "entity_texture_features-7.2.4-1.21.9-fabric.jar",
-          "path": "mods/entity_texture_features-7.2.4-1.21.9-fabric.jar",
+          "version_id": "yW674mc9",
+          "version_number": "7.1-fabric-1.21.9",
+          "filename": "entity_texture_features_1.21.9-fabric-7.1.jar",
+          "path": "mods/entity_texture_features_1.21.9-fabric-7.1.jar",
           "hashes": {
-            "sha1": "92b4db239faf912dac103c027b32123b6167404b",
-            "sha512": "330921b7c99d376f921ceea3d330a245f9b480a2397b32efa8423680fd52be958b20eb1a6fe71faa3395525e5bf5682fa50ca3dda66d05e446dd0c124272a8c4"
+            "sha1": "d954857ff2b6ff17c0594ee96cf5c3b24d58ae78",
+            "sha512": "98c918a73f0db0cf6bbd07fbeae8c9a82e51c38b7db35784a1f191df3442940fd51d2d5b7712b46d68335aa08765635ca19f2c33dcb336d6424ea7a0bb11fbd5"
           },
           "downloads": [
-            "https://cdn.modrinth.com/data/BVzZfTc1/versions/acEWVo9a/entity_texture_features-7.2.4-1.21.9-fabric.jar"
+            "https://cdn.modrinth.com/data/BVzZfTc1/versions/yW674mc9/entity_texture_features_1.21.9-fabric-7.1.jar"
           ],
-          "file_size": 786411,
+          "file_size": 744587,
           "env": {
             "client": "required",
             "server": "unsupported"
@@ -2691,18 +2691,18 @@
           "type": "mod",
           "project": "yacl",
           "project_id": "1eAoo2KR",
-          "version_id": "skcT0J9K",
-          "version_number": "3.8.2+1.21.10-fabric",
-          "filename": "yet_another_config_lib_v3-3.8.2+1.21.10-fabric.jar",
-          "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.10-fabric.jar",
+          "version_id": "UZmV6xf4",
+          "version_number": "3.8.0+1.21.9-fabric",
+          "filename": "yet_another_config_lib_v3-3.8.0+1.21.9-fabric.jar",
+          "path": "mods/yet_another_config_lib_v3-3.8.0+1.21.9-fabric.jar",
           "hashes": {
-            "sha1": "7c629ee66648c8b28f51b29ddff22fea79fc6cfb",
-            "sha512": "77dd4dbef6ab2d60863e1ac2f5c4e3eba16b3e6307fba5d9d70c20604e0f72863da20962c2aa99a8ef155debd5e60851c54937311b06e0dd4dbf4edb7a783b01"
+            "sha1": "9e25b9aa5118dc77d6ec1192df0c1bb237f7e9d1",
+            "sha512": "9ca9ccbbf025a795f1853feba3dc9755a377f744e3b075d581d987ae51d32e170d839e9069a9f2b05bd121cca78dfff3882dd5ea132768c7ce0ecae81ed472e3"
           },
           "downloads": [
-            "https://cdn.modrinth.com/data/1eAoo2KR/versions/skcT0J9K/yet_another_config_lib_v3-3.8.2%2B1.21.10-fabric.jar"
+            "https://cdn.modrinth.com/data/1eAoo2KR/versions/UZmV6xf4/yet_another_config_lib_v3-3.8.0%2B1.21.9-fabric.jar"
           ],
-          "file_size": 1127484,
+          "file_size": 1126346,
           "env": {
             "client": "required",
             "server": "required"
@@ -2845,18 +2845,18 @@
           "type": "mod",
           "project": "entity-model-features",
           "project_id": "4I1XuqiY",
-          "version_id": "lKrpBU0k",
-          "version_number": "3.3.8-fabric-1.21.9",
-          "filename": "entity_model_features-3.3.8-1.21.9-fabric.jar",
-          "path": "mods/entity_model_features-3.3.8-1.21.9-fabric.jar",
+          "version_id": "q5SsVEBz",
+          "version_number": "3.2.4-fabric-1.21.9",
+          "filename": "entity_model_features-3.2.4-1.21.9-fabric.jar",
+          "path": "mods/entity_model_features-3.2.4-1.21.9-fabric.jar",
           "hashes": {
-            "sha1": "183ba7f17a0f139a8a895999857e242fb1745651",
-            "sha512": "916ac9dc20b6e87e6a8ab370a4787b35fd5befafc7b5fd0115eb06622a2d414a43fe26a315088ab1f8ae755e6f3e6a85e0c0c114a44249354dbf28eb411a8052"
+            "sha1": "88d6c87e8780db6a15e2be3cd6842746bc7999ac",
+            "sha512": "3afd390f5b1400bd10fec79a7d2e5534f758732978e550095d11c51b8007d3ede4cef30055471c8066d3cdd3dec111f512449135d120d6decfff4439236e6c4b"
           },
           "downloads": [
-            "https://cdn.modrinth.com/data/4I1XuqiY/versions/lKrpBU0k/entity_model_features-3.3.8-1.21.9-fabric.jar"
+            "https://cdn.modrinth.com/data/4I1XuqiY/versions/q5SsVEBz/entity_model_features-3.2.4-1.21.9-fabric.jar"
           ],
-          "file_size": 653697,
+          "file_size": 580138,
           "env": {
             "client": "required",
             "server": "unsupported"

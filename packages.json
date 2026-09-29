@@ -409,16 +409,17 @@
       "type": "mod",
       "project": "entitytexturefeatures",
       "versions": {
-        "1.21.10+fabric": "7.1-fabric-1.21.9",
+        "1.21.10+fabric": "7.2.4-fabric-1.21.9",
         "1.21.11+fabric": "7.2.4-fabric-1.21.11",
         "1.21.8+fabric": "7.2.4-fabric-1.21.6",
-        "1.21.9+fabric": "7.2.4-fabric-1.21.9"
+        "1.21.9+fabric": "7.1-fabric-1.21.9"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "optional": false
+      "optional": false,
+      "lock": true
     },
     {
       "type": "mod",
@@ -486,7 +487,7 @@
         "1.21.10+fabric": "3.8.2+1.21.10-fabric",
         "1.21.11+fabric": "3.8.2+1.21.11-fabric",
         "1.21.8+fabric": "3.8.2+1.21.6-fabric",
-        "1.21.9+fabric": "3.8.2+1.21.10-fabric"
+        "1.21.9+fabric": "3.8.0+1.21.9-fabric"
       },
       "env": {
         "client": "required",
@@ -589,16 +590,17 @@
       "type": "mod",
       "project": "entity-model-features",
       "versions": {
-        "1.21.10+fabric": "3.2.4-fabric-1.21.9",
+        "1.21.10+fabric": "3.3.8-fabric-1.21.9",
         "1.21.11+fabric": "3.3.8-fabric-1.21.11",
         "1.21.8+fabric": "3.3.8-fabric-1.21.6",
-        "1.21.9+fabric": "3.3.8-fabric-1.21.9"
+        "1.21.9+fabric": "3.2.4-fabric-1.21.9"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "optional": false
+      "optional": false,
+      "lock": true
     },
     {
       "type": "resourcepack",
