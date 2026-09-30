@@ -2,8 +2,8 @@
   "$schema": "https://docs.ehis.gay/ehmodpack/schema/lock.schema.json",
   "schemaVersion": 1,
   "lock_version": 3,
-  "generated_at": "2026-09-29T19:51:27.8122883Z",
-  "manifest_hash": "ad35641e1236f3ec5673b0a43c8bf6a58c9cec5edc60ae8c6ab4143b1a1f3c57",
+  "generated_at": "2026-09-30T10:33:18.3277532Z",
+  "manifest_hash": "0fab2b69006d62a8e7a3e359f0c7eb817cea9bfb9d765269204bca469b9be9f4",
   "name": "Just Plots",
   "version": "1.0.0",
   "summary": "",
@@ -1010,6 +1010,33 @@
           },
           "source": "modrinth"
         }
+      ],
+      "external_packs": [
+        {
+          "name": "Icon Branding Remover - For 1.8-1.21.8.zip",
+          "active": true,
+          "builtin": false
+        },
+        {
+          "name": "MandalasGUI+Dakmode_1.21.6_v2.1.zip",
+          "active": true,
+          "builtin": false
+        },
+        {
+          "name": "Optional Resources",
+          "active": true,
+          "builtin": false
+        },
+        {
+          "name": "vanilla",
+          "active": true,
+          "builtin": true
+        },
+        {
+          "name": "fabric",
+          "active": true,
+          "builtin": true
+        }
       ]
     },
     {
@@ -1084,7 +1111,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 6,
           "source": "modrinth"
         },
         {
@@ -1239,7 +1266,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 2,
           "source": "modrinth"
         },
         {
@@ -1262,7 +1289,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 1,
           "source": "modrinth"
         },
         {
@@ -1901,7 +1928,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 4,
           "source": "modrinth"
         },
         {
@@ -2014,6 +2041,38 @@
           },
           "source": "modrinth"
         }
+      ],
+      "external_packs": [
+        {
+          "name": "Icon Branding Remover - For 1.8-1.21.8.zip",
+          "active": true,
+          "builtin": false,
+          "position": 3
+        },
+        {
+          "name": "MandalasGUI+Dakmode_1.21.6_v2.1.zip",
+          "active": true,
+          "builtin": false,
+          "position": 5
+        },
+        {
+          "name": "Optional Resources",
+          "active": true,
+          "builtin": false,
+          "position": 7
+        },
+        {
+          "name": "vanilla",
+          "active": true,
+          "builtin": true,
+          "position": 8
+        },
+        {
+          "name": "fabric",
+          "active": true,
+          "builtin": true,
+          "position": 9
+        }
       ]
     },
     {
@@ -2088,7 +2147,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 6,
           "source": "modrinth"
         },
         {
@@ -2243,7 +2302,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 2,
           "source": "modrinth"
         },
         {
@@ -2266,7 +2325,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 1,
           "source": "modrinth"
         },
         {
@@ -2883,7 +2942,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 4,
           "source": "modrinth"
         },
         {
@@ -2996,6 +3055,38 @@
           },
           "source": "modrinth"
         }
+      ],
+      "external_packs": [
+        {
+          "name": "Icon Branding Remover - For 1.8-1.21.8.zip",
+          "active": true,
+          "builtin": false,
+          "position": 3
+        },
+        {
+          "name": "MandalasGUI+Dakmode_1.21.6_v2.1.zip",
+          "active": true,
+          "builtin": false,
+          "position": 5
+        },
+        {
+          "name": "Optional Resources",
+          "active": true,
+          "builtin": false,
+          "position": 7
+        },
+        {
+          "name": "vanilla",
+          "active": true,
+          "builtin": true,
+          "position": 8
+        },
+        {
+          "name": "fabric",
+          "active": true,
+          "builtin": true,
+          "position": 9
+        }
       ]
     },
     {
@@ -3070,7 +3161,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 6,
           "source": "modrinth"
         },
         {
@@ -3225,7 +3316,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 2,
           "source": "modrinth"
         },
         {
@@ -3248,7 +3339,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 1,
           "source": "modrinth"
         },
         {
@@ -3887,7 +3978,7 @@
             "client": "required",
             "server": "unsupported"
           },
-          "position": "top",
+          "position": 4,
           "source": "modrinth"
         },
         {
@@ -3999,6 +4090,38 @@
             "server": "required"
           },
           "source": "modrinth"
+        }
+      ],
+      "external_packs": [
+        {
+          "name": "Icon Branding Remover - For 1.8-1.21.8.zip",
+          "active": true,
+          "builtin": false,
+          "position": 3
+        },
+        {
+          "name": "MandalasGUI+Dakmode_1.21.6_v2.1.zip",
+          "active": true,
+          "builtin": false,
+          "position": 5
+        },
+        {
+          "name": "Optional Resources",
+          "active": true,
+          "builtin": false,
+          "position": 7
+        },
+        {
+          "name": "vanilla",
+          "active": true,
+          "builtin": true,
+          "position": 8
+        },
+        {
+          "name": "fabric",
+          "active": true,
+          "builtin": true,
+          "position": 9
         }
       ]
     }
