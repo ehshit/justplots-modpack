@@ -3,9 +3,9 @@ name: build
 "on":
   push:
     branches:
-      - main
+      - '**'
     tags:
-      - 'v*'
+      - '*'
   workflow_dispatch:
 
 permissions:
@@ -13,6 +13,8 @@ permissions:
 
 jobs:
   build:
+    outputs:
+      version: ${{ steps.ver.outputs.value }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,6 +26,24 @@ jobs:
             "https://github.com/ehshit/ehmodpack/releases/latest/download/ehmodpack-linux-x86_64"
           chmod +x "$HOME/.local/bin/ehmodpack"
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+      - name: sync the manifest version to the tag
+        id: ver
+        if: github.ref_type == 'tag'
+        shell: bash
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          echo "value=$tag" >> "$GITHUB_OUTPUT"
+          ehmodpack set-version "$tag"
+          if [ -z "$(git status --porcelain packages.json ehmodpack.lock.json)" ]; then
+            echo "packages.json was already on $tag"
+            exit 0
+          fi
+          echo "syncing packages.json to $tag and pushing it"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packages.json ehmodpack.lock.json
+          git commit -m "version: $tag"
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"
       - name: check lockfile
         run: ehmodpack lock --check
       - name: build every target
@@ -47,13 +67,15 @@ jobs:
       - name: read the pack info
         id: meta
         shell: bash
+        env:
+          RELEASE_VERSION: ${{ needs.build.outputs.version }}
         run: |
           python3 - > info.json <<'EOF'
-          import json
+          import json, os
           p = json.load(open('packages.json'))
           s = json.load(open('softwares.json'))
           top = (p.get('top') or '')
-          version = (p.get('version') or '')
+          version = os.environ.get('RELEASE_VERSION') or (p.get('version') or '')
           targets = []
           for t in s['targets']:
               mc = t['minecraft']
