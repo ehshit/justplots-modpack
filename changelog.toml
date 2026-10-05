@@ -2,3 +2,30 @@
 changelogtext = """
 - Backport to 1.21.10/1.21.9/1.21.8 because of the server's version(s)
 """
+[[2026-10-05]]
+changelogtext = """
+## Mod Updates
+
+- [Dramatic Skys](https://modrinth.com/mod/dramatic-skys) has been updated from 1.5.3.36.5 to 1.5.3.36.6
+- [Entity Culling](https://modrinth.com/mod/entityculling) has been updated from 1.10.5 to 1.11.2
+- [Sodium Extra](https://modrinth.com/mod/sodium-extra) has been updated from mc1.21.11-0.8.3+fabric to mc1.21.11-0.9.4+fabric
+- [Icons](https://modrinth.com/mod/icons) has been updated from 1.13.4 to 1.14
+- [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) has been updated from 1.11.2 to 1.11.3
+- [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) has been updated from 1.13.13+kotlin.2.4.10 to 1.14.1+kotlin.2.4.20
+- [Mod Menu](https://modrinth.com/mod/modmenu) has been updated from 17.0.1-beta.1 to 17.0.1
+- [Debugify](https://modrinth.com/mod/debugify) has been updated from 1.21.11+1.1 to 1.21.11+1.2
+- [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) has been updated from mc1.21.11-2.0.3+fabric to mc1.21.11-2.2.4+fabric
+- [No Chat Restrictions](https://modrinth.com/mod/no-chat-restrictions) has been updated from Fabric-MC1.21.11-v1.0.2 to Fabric-MC1.21.11-v1.0.3
+- [Chat Heads](https://modrinth.com/mod/chat-heads) has been updated from 1.2.8 to 1.3.2
+- [Dramatic Skys](https://modrinth.com/mod/dramatic-skys) has been updated from 1.5.3.36.5 to 1.5.3.36.6
+- [Entity Culling](https://modrinth.com/mod/entityculling) has been updated from 1.10.5 to 1.11.2
+- [Icons](https://modrinth.com/mod/icons) has been updated from 1.13.4 to 1.14
+- [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) has been updated from 1.11.2 to 1.11.3
+- [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) has been updated from 1.13.13+kotlin.2.4.10 to 1.14.1+kotlin.2.4.20
+- [No Chat Restrictions](https://modrinth.com/mod/no-chat-restrictions) has been updated from Fabric-MC1.21.11-v1.0.2 to Fabric-MC1.21.11-v1.0.3
+- [Chat Heads](https://modrinth.com/mod/chat-heads) has been updated from 1.2.8 to 1.3.2
+- [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) has been updated from 3.8.0+1.21.9-fabric to 3.8.2+1.21.10-fabric
+- [No Chat Restrictions](https://modrinth.com/mod/no-chat-restrictions) has been updated from Fabric-MC1.21.11-v1.0.2 to Fabric-MC1.21.11-v1.0.3
+- [Chat Heads](https://modrinth.com/mod/chat-heads) has been updated from 1.3.0 to 1.3.2
+- [No Chat Restrictions](https://modrinth.com/mod/no-chat-restrictions) has been updated from Fabric-MC1.21.11-v1.0.2 to Fabric-MC1.21.11-v1.0.3
+"""
