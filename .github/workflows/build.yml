@@ -4,8 +4,6 @@ name: build
   push:
     branches:
       - main
-    paths:
-      - Cargo.toml
     tags:
       - 'v*'
   workflow_dispatch:
@@ -32,7 +30,7 @@ jobs:
         run: ehmodpack build --locked --all
       - uses: actions/upload-artifact@v4
         with:
-          name: __SLUG__
+          name: modpacks
           path: dist/*.mrpack
           if-no-files-found: error
   publish:
@@ -44,7 +42,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           path: dist
-          pattern: __SLUG__
+          pattern: modpacks
           merge-multiple: true
       - name: read the pack info
         id: meta

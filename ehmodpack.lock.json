@@ -2,10 +2,10 @@
   "$schema": "https://docs.ehis.gay/ehmodpack/schema/lock.schema.json",
   "schemaVersion": 1,
   "lock_version": 3,
-  "generated_at": "2026-09-30T10:33:18.3277532Z",
-  "manifest_hash": "0fab2b69006d62a8e7a3e359f0c7eb817cea9bfb9d765269204bca469b9be9f4",
+  "generated_at": "2026-10-05T19:03:22.4275437Z",
+  "manifest_hash": "09b9256cbae658dfa90cd3aa04cbf92aef62a994a89961d6ddc0ae7f45c0a1f0",
   "name": "Just Plots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "",
   "targets": [
     {
