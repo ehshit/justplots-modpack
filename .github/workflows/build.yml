@@ -33,7 +33,7 @@ jobs:
         run: |
           tag="${GITHUB_REF_NAME#v}"
           echo "value=$tag" >> "$GITHUB_OUTPUT"
-          ehmodpack set-version "$tag"
+          ehmodpack set-release "$tag"
           if [ -z "$(git status --porcelain packages.json ehmodpack.lock.json)" ]; then
             echo "packages.json was already on $tag"
             exit 0
