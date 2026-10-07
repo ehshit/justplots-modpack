@@ -45,8 +45,8 @@
       "type": "resourcepack",
       "project": "dramatic-skys",
       "versions": {
-        "1.21.10+fabric": "1.5.3.36.5",
-        "1.21.11+fabric": "1.5.3.36.5",
+        "1.21.10+fabric": "1.5.3.36.6",
+        "1.21.11+fabric": "1.5.3.36.6",
         "1.21.8+fabric": "1.5.3.36.6",
         "1.21.9+fabric": "1.5.3.36.6"
       },
@@ -57,9 +57,10 @@
       "optional": false,
       "active": true,
       "positions": {
-        "1.21.10+fabric": 6,
-        "1.21.8+fabric": 6,
-        "1.21.9+fabric": 6
+        "1.21.10+fabric": 4,
+        "1.21.11+fabric": 4,
+        "1.21.8+fabric": 4,
+        "1.21.9+fabric": 4
       }
     },
     {
@@ -156,8 +157,8 @@
       "type": "resourcepack",
       "project": "icons",
       "versions": {
-        "1.21.10+fabric": "1.13.4",
-        "1.21.11+fabric": "1.13.4",
+        "1.21.10+fabric": "1.14",
+        "1.21.11+fabric": "1.14",
         "1.21.8+fabric": "1.14",
         "1.21.9+fabric": "1.14"
       },
@@ -169,6 +170,7 @@
       "active": true,
       "positions": {
         "1.21.10+fabric": 2,
+        "1.21.11+fabric": 2,
         "1.21.8+fabric": 2,
         "1.21.9+fabric": 2
       }
@@ -190,6 +192,7 @@
       "active": true,
       "positions": {
         "1.21.10+fabric": 1,
+        "1.21.11+fabric": 1,
         "1.21.8+fabric": 1,
         "1.21.9+fabric": 1
       }
@@ -633,9 +636,10 @@
       "optional": false,
       "active": true,
       "positions": {
-        "1.21.10+fabric": 4,
-        "1.21.8+fabric": 4,
-        "1.21.9+fabric": 4
+        "1.21.10+fabric": 3,
+        "1.21.11+fabric": 3,
+        "1.21.8+fabric": 3,
+        "1.21.9+fabric": 3
       }
     },
     {
@@ -716,30 +720,13 @@
   ],
   "external_packs": [
     {
-      "name": "Icon Branding Remover - For 1.8-1.21.8.zip",
-      "active": true,
-      "positions": {
-        "1.21.10+fabric": 3,
-        "1.21.8+fabric": 3,
-        "1.21.9+fabric": 3
-      }
-    },
-    {
-      "name": "MandalasGUI+Dakmode_1.21.6_v2.1.zip",
-      "active": true,
-      "positions": {
-        "1.21.10+fabric": 5,
-        "1.21.8+fabric": 5,
-        "1.21.9+fabric": 5
-      }
-    },
-    {
       "name": "Optional Resources",
       "active": true,
       "positions": {
-        "1.21.10+fabric": 7,
-        "1.21.8+fabric": 7,
-        "1.21.9+fabric": 7
+        "1.21.10+fabric": 5,
+        "1.21.11+fabric": 5,
+        "1.21.8+fabric": 5,
+        "1.21.9+fabric": 5
       }
     },
     {
@@ -747,9 +734,10 @@
       "active": true,
       "builtin": true,
       "positions": {
-        "1.21.10+fabric": 8,
-        "1.21.8+fabric": 8,
-        "1.21.9+fabric": 8
+        "1.21.10+fabric": 6,
+        "1.21.11+fabric": 6,
+        "1.21.8+fabric": 6,
+        "1.21.9+fabric": 6
       }
     },
     {
@@ -757,9 +745,10 @@
       "active": true,
       "builtin": true,
       "positions": {
-        "1.21.10+fabric": 9,
-        "1.21.8+fabric": 9,
-        "1.21.9+fabric": 9
+        "1.21.10+fabric": 7,
+        "1.21.11+fabric": 7,
+        "1.21.8+fabric": 7,
+        "1.21.9+fabric": 7
       }
     }
   ]

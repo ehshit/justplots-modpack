@@ -1,8 +1,8 @@
 {
-  "pack": {
-    "pack_format": 69,
-    "min_format": 69,
-    "max_format": 75,
-    "description": "Optional for the modpack"
-  }
+    "pack": {
+        "pack_format": 64,
+        "min_format": 64,
+        "max_format": 75,
+        "description": "Optional for the modpack"
+    }
 }
