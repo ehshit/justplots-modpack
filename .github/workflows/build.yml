@@ -94,8 +94,8 @@ jobs:
           info=$(cat info.json)
           echo "top=$(echo "$info" | python3 -c "import json,sys;print(json.load(sys.stdin)['top'])")" >> "$GITHUB_OUTPUT"
           echo "version=$(echo "$info" | python3 -c "import json,sys;print(json.load(sys.stdin)['version'])")" >> "$GITHUB_OUTPUT"
-          echo "versions=$(echo "$info" | python3 -c "import json,sys;print(json.dumps(json.load(sys.stdin)['versions']))")" >> "$GITHUB_OUTPUT"
-          echo "loaders=$(echo "$info" | python3 -c "import json,sys;print(json.dumps(json.load(sys.stdin)['loaders']))")" >> "$GITHUB_OUTPUT"
+          echo "versions=$(echo "$info" | python3 -c "import json,sys;print(','.join(json.load(sys.stdin)['versions']))")" >> "$GITHUB_OUTPUT"
+          echo "loaders=$(echo "$info" | python3 -c "import json,sys;print(','.join(json.load(sys.stdin)['loaders']))")" >> "$GITHUB_OUTPUT"
       - name: read the changelog
         shell: bash
         run: |
@@ -123,8 +123,8 @@ jobs:
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           github-tag: ${{ github.ref_name }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          loaders: ${{ fromJson(steps.meta.outputs.loaders) }}
-          game-versions: ${{ fromJson(steps.meta.outputs.versions) }}
+          loaders: ${{ steps.meta.outputs.loaders }}
+          game-versions: ${{ steps.meta.outputs.versions }}
           version-type: release
           version-name: ${{ steps.meta.outputs.version }}
           changelog-file: .ehmodpack-changelog.md
