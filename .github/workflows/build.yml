@@ -18,14 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
       - name: Install Eh's Modpack
-        shell: bash
         run: |
-          mkdir -p "$HOME/.local/bin"
-          curl -sL -o "$HOME/.local/bin/ehmodpack" \
-            "https://github.com/ehshit/ehmodpack/releases/latest/download/ehmodpack-linux-x86_64"
-          chmod +x "$HOME/.local/bin/ehmodpack"
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          cargo install --git https://github.com/ehshit/ehmodpack --locked
       - name: sync the manifest version to the tag
         id: ver
         if: github.ref_type == 'tag'
